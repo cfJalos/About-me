@@ -1,17 +1,66 @@
-ul {
-  background-color: purple;
+#bibliography {
+  font-size: 4em;
 }
 
-.first {
-  font:sans-serif;
+body {
+  background-color: #f4e0cb;
+  color: #413333;
+}
+
+header {
+  text-align: center;
+  background-size: cover;
+  background-color: #9b4c38;
+  color: #f4e0cb;
+}
+h1 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+ul {
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 30px 10px 0px 10px;
+}
+
+a {
+  color: #f4e0cb;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.About {
+  padding: 30px 10px 0px 10px;
+  margin: auto;
+  width: 1200px;
+}
+
+#Contact {
+  padding: 30px 10px 0px 10px;
+  margin: auto;`
+  width: 1200px;
+}
+
+footer {
+  padding: 60px 10px 0px 10px;
+  margin: auto;
+  width: 1200px;
   
 }
 
-.second {
-  color: orange;
+.About p {
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
-
-.third {
-  font-size: 2em;
-}
-
