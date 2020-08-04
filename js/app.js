@@ -1,7 +1,42 @@
 'use strict';
 
-var wantsToPlayAGame = prompt('do you want to play a game?');
+var fullName = prompt('What is your full name?')
+console.log('Full name is ' + fullName);
+alert('Hi ' + fullName + '!');
 
-console.log('does the user want to play a game? ' + wantsToPlayAGame);
+var wantsToPlayAGame = prompt('do you want to play a game 5 question game?');
+if (wantsToPlayAGame.toLocaleLowerCase() === 'yes') {
+  alert('Awesome ' + fullName + '! answer yes or no to guess. :)')
+} else {
+  alert('Hope to see you agian ' + fullName + '!');
+  }
+
+var myLast = prompt('My last name is Jalos, yes or no?');
+if (myLast.toLocaleLowerCase() === 'yes') {
+  alert('You\' correct ' + fullName +'! Next Question.' )
+} else {
+  alert('Wrong! guess better next time.') 
+  }
+
+var myFirst = prompt('Is my First name Czarl?')
+if (myFirst.toLocaleLowerCase() === 'yes') {
+  alert('You\' correct ' + fullName +'! Next Question.' )
+} else {
+  alert('Wrong! guess better next time.')
+  }
+
+var vet = prompt('Am i an Air force veteran?');
+if (vet.toLocaleLowerCase() === 'no') {
+  alert('You\' correct ' + fullName +'! I\'m a Navy veteran. Next Question.' )
+} else {
+  alert('I\'m a Navy veteran guess better next time.')
+  }
+
+var lang = prompt('Am i a Code fellow student?')
+if (lang.toLocaleLowerCase() === 'yes') {
+  alert('You\' correct ' + fullName +'! Check out my Biography.' )
+} else {
+  alert('Wrong! guess better next time and check out my Biography.')
+  }
 
 
