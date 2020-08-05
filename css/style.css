@@ -81,3 +81,13 @@ footer {
 .foot {
   padding-bottom: 20px;
 }
+
+li {
+  list-style-type: lower-roman;
+  display: list-item;
+}
+
+ol {
+  list-style-type: lower-roman;
+  display: block;
+}
