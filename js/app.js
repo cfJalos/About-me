@@ -43,6 +43,48 @@ if (lang.toLocaleLowerCase() === 'yes' || lang.toLocaleLowerCase() === 'y') {
   alert('Wrong! guess better next time.');
   }
 
-  alert('Thanks for playing ' + fullName + '. Check out my Biography!');
+  alert('Thanks for playing yes or no' + fullName + '. Wanna play guess a number?');
+  
+  // This is the code for the 6th Question
+  alert(' GUESS THE NUMBER!');
+  
+var randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.. YOU HAVE 4 CHANCES");
+
+var chances = 3;
+
+for (var i = 1; i <= chances; i++) {
+  var answer = '5';
+  var index = i;
+  if (randomNum === answer) {
+    alert('Proceed to next level!');
+    break;
+  } else if (index === 3 && randomNum < answer) {
+    alert('Still low! You\'re almost there! LAST CHANCE!');
+    randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10."); 
+      if (randomNum === answer) {
+      alert('Correct! Proceed to next level!');
+      break;
+      } else if (randomNum !== answer){
+      alert('You used up all your chances. Better luck next time!')
+      }  
+  } else if (index === 3 && randomNum > answer) {
+      alert('Still High! You\'re almost there! LAST CHANCE!');
+      randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10."); 
+      if (randomNum === answer) {
+        alert('Correct! Proceed to next level!');
+        break;
+    } else if (randomNum !== answer){
+        alert('You used up all your chances. Better luck next time!')
+        }  
+  } else if (randomNum < answer) {
+      alert('too low! try again!');
+      randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.")
+    } else if (randomNum > answer) {
+      alert('too high! try again!');
+      randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.")
+    } 
+}
+    
+  
 
 
