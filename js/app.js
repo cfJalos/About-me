@@ -40,7 +40,9 @@ if (lang.toLocaleLowerCase() === 'yes' || lang.toLocaleLowerCase() === 'y') {
   //console.log('You\' correct ' + fullName +'! Next Question.');
   alert('You\' correct ' + fullName +'! Check out my Biography.' );
 } else if (lang.toLocaleLowerCase() === 'no' || lang.toLocaleLowerCase() === 'n') {
-  alert('Wrong! guess better next time and check out my Biography.');
+  alert('Wrong! guess better next time.');
   }
+
+  alert('Thanks for playing ' + fullName + '. Check out my Biography!');
 
 
