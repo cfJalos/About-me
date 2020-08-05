@@ -20,15 +20,12 @@ h1 {
   
 }
 
-ul {
-  margin: 20px 0px 0px 0px;
-  padding: 10px;
-}
 
 li {
-  display: inline;
-  padding: 30px 10px 0px 10px;
+  display: block;
+  padding: 5px 10px;
 }
+
 
 a {
   color: #f4e0cb;
