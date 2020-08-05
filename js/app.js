@@ -12,7 +12,7 @@ if (wantsToPlayAGame.toLocaleLowerCase() === 'yes' || wantsToPlayAGame.toLocaleL
   }
 
 var myLast = prompt('My last name is Jalos, yes or no?');
-if (myLast.toLocaleLowerCase() === 'yes' || wantsToPlayAGame.toLocaleLowerCase() === 'y') {
+if (myLast.toLocaleLowerCase() === 'yes' || myLast.toLocaleLowerCase() === 'y') {
   //console.log('You\' correct ' + fullName +'! Next Question.');
   alert('You\' correct ' + fullName +'! Next Question.' );
 } else {
@@ -20,7 +20,7 @@ if (myLast.toLocaleLowerCase() === 'yes' || wantsToPlayAGame.toLocaleLowerCase()
   }
 
 var myFirst = prompt('Is my First name Czarl?');
-if (myFirst.toLocaleLowerCase() === 'yes' || wantsToPlayAGame.toLocaleLowerCase() === 'y') {
+if (myFirst.toLocaleLowerCase() === 'yes' || myFirst.toLocaleLowerCase() === 'y') {
   //console.log('You\' correct ' + fullName +'! Next Question.');
   alert('You\' correct ' + fullName +'! Next Question.');
 } else {
@@ -28,7 +28,7 @@ if (myFirst.toLocaleLowerCase() === 'yes' || wantsToPlayAGame.toLocaleLowerCase(
   }
 
 var vet = prompt('Am i an Air force veteran?');
-if (vet.toLocaleLowerCase() === 'no' || wantsToPlayAGame.toLocaleLowerCase() === 'n') {
+if (vet.toLocaleLowerCase() === 'no' || vet.toLocaleLowerCase() === 'n') {
   //console.log('You\' correct ' + fullName +'! Next Question.');
   alert('You\' correct ' + fullName +'! I\'m a Navy veteran. Next Question.' );
 } else {
@@ -36,7 +36,7 @@ if (vet.toLocaleLowerCase() === 'no' || wantsToPlayAGame.toLocaleLowerCase() ===
   }
 
 var lang = prompt('Am i a Code fellow student?')
-if (lang.toLocaleLowerCase() === 'yes') {
+if (lang.toLocaleLowerCase() === 'yes' || lang.toLocaleLowerCase() === 'y') {
   //console.log('You\' correct ' + fullName +'! Next Question.');
   alert('You\' correct ' + fullName +'! Check out my Biography.' );
 } else {
