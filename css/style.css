@@ -5,6 +5,7 @@
 body {
   background-color: #f4e0cb;
   color: #413333;
+  font-family: sans-serif;
 }
 
 header {
@@ -16,11 +17,13 @@ header {
 h1 {
   padding-top: 30px;
   padding-bottom: 0px;
+  
 }
 
 ul {
   margin: 20px 0px 0px 0px;
   padding: 10px;
+  background-color: #413333;
 }
 
 li {
@@ -62,5 +65,10 @@ footer {
 
 .About p {
   padding-left: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  
+}
+
+.foot {
+  padding-bottom: 20px;
 }
