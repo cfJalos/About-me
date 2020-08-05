@@ -6,37 +6,41 @@ alert('Hi ' + fullName + '!');
 
 var wantsToPlayAGame = prompt('do you want to play a game 5 question game?');
 if (wantsToPlayAGame.toLocaleLowerCase() === 'yes') {
-  alert('Awesome ' + fullName + '! answer yes or no to guess. :)')
+  alert('Awesome ' + fullName + '! answer yes or no to guess. :)');
 } else {
   alert('Hope to see you agian ' + fullName + '!');
   }
 
 var myLast = prompt('My last name is Jalos, yes or no?');
 if (myLast.toLocaleLowerCase() === 'yes') {
-  alert('You\' correct ' + fullName +'! Next Question.' )
+  //console.log('You\' correct ' + fullName +'! Next Question.');
+  alert('You\' correct ' + fullName +'! Next Question.' );
 } else {
-  alert('Wrong! guess better next time.') 
+  alert('Wrong! guess better next time.') ;
   }
 
-var myFirst = prompt('Is my First name Czarl?')
+var myFirst = prompt('Is my First name Czarl?');
 if (myFirst.toLocaleLowerCase() === 'yes') {
-  alert('You\' correct ' + fullName +'! Next Question.' )
+  //console.log('You\' correct ' + fullName +'! Next Question.');
+  alert('You\' correct ' + fullName +'! Next Question.');
 } else {
-  alert('Wrong! guess better next time.')
+  alert('Wrong! guess better next time.');
   }
 
 var vet = prompt('Am i an Air force veteran?');
 if (vet.toLocaleLowerCase() === 'no') {
-  alert('You\' correct ' + fullName +'! I\'m a Navy veteran. Next Question.' )
+  //console.log('You\' correct ' + fullName +'! Next Question.');
+  alert('You\' correct ' + fullName +'! I\'m a Navy veteran. Next Question.' );
 } else {
   alert('I\'m a Navy veteran guess better next time.')
   }
 
 var lang = prompt('Am i a Code fellow student?')
 if (lang.toLocaleLowerCase() === 'yes') {
-  alert('You\' correct ' + fullName +'! Check out my Biography.' )
+  //console.log('You\' correct ' + fullName +'! Next Question.');
+  alert('You\' correct ' + fullName +'! Check out my Biography.' );
 } else {
-  alert('Wrong! guess better next time and check out my Biography.')
+  alert('Wrong! guess better next time and check out my Biography.');
   }
 
 
