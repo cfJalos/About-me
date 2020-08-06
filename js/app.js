@@ -15,53 +15,54 @@ if (wantsToPlayAGame.toLocaleLowerCase() === 'yes' || wantsToPlayAGame.toLocaleL
 
 var myLast = prompt('My last name is Jalos, yes or no?');
 if (myLast.toLocaleLowerCase() === 'yes' || myLast.toLocaleLowerCase() === 'y') {
-  //console.log('You\' correct ' + fullName +'! Next Question.');
+  //console.log('correct ' + fullName +'! Next Question.');
   gradeCounter += 1;
-  alert('You\' correct ' + fullName +'! Next Question.' );
+  alert('You\'re correct ' + fullName +'! Next Question.' );
 } else if (myLast.toLocaleLowerCase() === 'no' || myLast.toLocaleLowerCase() === 'n') {
   alert('Wrong! guess better next time.') ;
   }
 
 var myFirst = prompt('Is my First name Czarl?');
 if (myFirst.toLocaleLowerCase() === 'yes' || myFirst.toLocaleLowerCase() === 'y') {
-  //console.log('You\' correct ' + fullName +'! Next Question.');
+  //console.log('correct ' + fullName +'! Next Question.');
   gradeCounter += 1;
-  alert('You\' correct ' + fullName +'! Next Question.');
+  alert('correct ' + fullName +'! Next Question.');
 } else if (myFirst.toLocaleLowerCase() === 'no' || myFirst.toLocaleLowerCase() === 'n') {
   alert('Wrong! guess better next time.');
   }
 
 var vet = prompt('Am i an Air force veteran?');
 if (vet.toLocaleLowerCase() === 'no' || vet.toLocaleLowerCase() === 'n') {
-  //console.log('You\' correct ' + fullName +'! Next Question.');
+  //console.log('correct ' + fullName +'! Next Question.');
   gradeCounter += 1;
-  alert('You\' correct ' + fullName +'! I\'m a Navy veteran. Next Question.' );
+  alert('correct ' + fullName +'! I\'m a Navy veteran. Next Question.' );
 } else if (vet.toLocaleLowerCase() === 'yes' || vet.toLocaleLowerCase() === 'y') {
   alert('I\'m a Navy veteran guess better next time.')
   }
 
 var lang = prompt('Is Hotdog a Sandwich?')
 if (lang.toLocaleLowerCase() === 'yes' || lang.toLocaleLowerCase() === 'y') {
-  //console.log('You\' correct ' + fullName +'! Next Question.');
+  //console.log('correct ' + fullName +'! Next Question.');
   gradeCounter += 1;
-  alert('You\' correct ' + fullName +'!.' );
+  alert('correct ' + fullName +'!.' );
 } else if (lang.toLocaleLowerCase() === 'no' || lang.toLocaleLowerCase() === 'n') {
   alert('Wrong! guess better next time. :)');
   }
 
 var lang = prompt('Am i a Code fellow student?')
 if (lang.toLocaleLowerCase() === 'yes' || lang.toLocaleLowerCase() === 'y') {
-  //console.log('You\' correct ' + fullName +'! Next Question.');
+  //console.log('correct ' + fullName +'! Next Question.');
   gradeCounter += 1;
-  alert('You\' correct ' + fullName +'! Check out my Biography.' );
+  alert('correct ' + fullName +'! Check out my Biography.' );
 } else if (lang.toLocaleLowerCase() === 'no' || lang.toLocaleLowerCase() === 'n') {
   alert('Wrong! guess better next time.');
   }
 
   alert('Thanks for playing yes or no' + fullName + '. Lets play guess a number!');
   
-  // This is the code for the 6th Question
-  alert(' GUESS THE NUMBER!');
+// This is the code for the 6th Question
+
+alert(' GUESS THE NUMBER!');
   
 var randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.. YOU HAVE 4 CHANCES");
 
@@ -73,6 +74,7 @@ for (var i = 1; i <= chances; i++) {
   if (randomNum === answer) {
     gradeCounter += 1;
     alert('Proceed to next level!');
+    //console.log('Correct! Proceed to next Question!');
     break;
   } else if (index === 3 && randomNum < answer) {
     alert('Still low! You\'re almost there! LAST CHANCE!');
@@ -80,6 +82,7 @@ for (var i = 1; i <= chances; i++) {
       if (randomNum === answer) {
         gradeCounter += 1;
       alert('Correct! Proceed to next level!');
+      //console.log('Correct! Proceed to next level!')
       break;
       } else if (randomNum !== answer){
       alert('You used up all your chances. Better luck next time!')
@@ -90,6 +93,7 @@ for (var i = 1; i <= chances; i++) {
       if (randomNum === answer) {
         gradeCounter += 1;
         alert('Correct! Proceed to next Question!');
+        //console.log('Correct! Proceed to next Question!');
         break;
     } else if (randomNum !== answer){
         alert('You used up all your chances. Better luck next time!')
@@ -130,6 +134,7 @@ var endOfIndex = answers[answers.length - 1];
       limiter += '0'
       gradeCounter += 1;
       alert('Good Job!');
+      //console.log('Correct!')
       break;
     } else if (answers[j] === endOfIndex && lowCase !== answers[j]) {
       alert('Try again, Sorry!');
