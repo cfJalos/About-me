@@ -97,12 +97,7 @@ footer {
   padding-bottom: 20px;
 }
 
-li {
-  list-style-type: lower-roman;
+.top li {
+  list-style-type: decimal;
   display: list-item;
-}
-
-ol {
-  list-style-type: lower-roman;
-  display: block;
 }
