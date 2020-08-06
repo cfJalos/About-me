@@ -58,13 +58,13 @@ if (lang.toLocaleLowerCase() === 'yes' || lang.toLocaleLowerCase() === 'y') {
   alert('Wrong! guess better next time.');
   }
 
-  alert('Thanks for playing yes or no' + fullName + '. Lets play guess a number!');
+  alert('Thanks for playing yes or no ' + fullName + '. Lets play guess a number!');
   
 // This is the code for the 6th Question
 
 alert(' GUESS THE NUMBER!');
   
-var randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.. YOU HAVE 4 CHANCES");
+var randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10. YOU HAVE 4 CHANCES TO GET THE RIGHT ANSWER");
 
 var chances = 3;
 
