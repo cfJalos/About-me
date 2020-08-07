@@ -37,7 +37,7 @@ alert('Thanks for playing yes or no ' + fullName + '. Lets play guess a number!'
 // This is the code for the 6th Question
 
 alert(' GUESS THE NUMBER!');
-
+alert('You have 4 chance to get it right!')
 
 function guess(){
 
