@@ -44,22 +44,22 @@ function guess(){
 var chances = 4;
   
 for (var i = 1; i <= chances; i++) {
- var randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.");
- var index = i;
-  if (randomNum === qSixAnswer) {
+  var randomNum = prompt("PICK A NUMBER BETWEEN 1 AND 10.");
+  var index = i;
+  if (randomNum === qSixAnswer[0]) {
     gradeCounter += 1;
     alert('Correct!Proceed to next question!');
     //console.log('Correct! Proceed to next Question!');
     break;
-  } else if (index === 4 && randomNum !== qSixAnswer) {
+  } else if (index === 4 && randomNum !== qSixAnswer[0]) {
     alert('You used up all your chances. Better luck next time!')
-  } else if (randomNum < qSixAnswer) {
+  } else if (randomNum < qSixAnswer[0]) {
       alert('too low! try again!');
       
-  } else if (randomNum > qSixAnswer) {
+  } else if (randomNum > qSixAnswer[0]) {
       alert('too high! try again!');
   } 
- }
+  }
 }
 
 guess();
